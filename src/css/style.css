@@ -321,19 +321,10 @@ body {
     background: rgba(26, 26, 46, 0.5);
 }
 
-.about .section-title {
-    margin-bottom: 1.5rem; /* Adjust this value */
-}
-
 .about-content {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 0; /* Remove any top margin */
-}
-
-.about-text {
-    margin-top: 0; /* Remove any top margin */
 }
 
 .about-text p {

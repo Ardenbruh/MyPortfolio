@@ -1,138 +1,44 @@
-# Portfolio Website - Vedant Mishra
+# Portfolio Website
 
-A modern, responsive portfolio website showcasing my projects and skills in Computer Science, AI/ML, and Web Development. Features a sleek dark theme with glassmorphism design elements and smooth animations.
+This is a portfolio website project created using HTML, CSS, and JavaScript. The website features a sleek black and blue design, providing a modern and professional look.
 
-## 🌟 Features
-
-- **Modern Design**: Dark theme with blue accent colors and glassmorphism effects
-- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
-- **Interactive Elements**: Smooth animations, hover effects, and transitions
-- **Project Showcase**: Detailed project cards with tags, descriptions, and links
-- **Skills Display**: Visual representation of technical skills and expertise
-- **Contact Integration**: Direct links to email, GitHub, and LinkedIn
-- **Resume Access**: One-click access to downloadable resume
-
-## 🎮 Included Projects
-
-### Featured Games & Applications
-- **Wordle Clone**: Interactive word-guessing game with sound effects and animations
-- **CopyCar**: AI-powered racing game using Unity ML-Agents and Reinforcement Learning
-- **SmartMerge**: Intelligent file merging system with advanced algorithms
-- **Project E**: Enterprise-level solution focusing on scalability
-
-## 📁 Project Structure
+## Project Structure
 
 ```
-portfolio-website/
-├── src/
-│   ├── index.html              # Main portfolio page
-│   ├── css/
-│   │   └── style.css          # Main stylesheet with responsive design
-│   ├── js/
-│   │   ├── main.js            # Core JavaScript functionality
-│   │   └── animations.js      # Animation and interaction scripts
-│   ├── images/
-│   │   └── vedant-photo.jpg   # Profile photo
-│   └── pages/
-│       ├── about.html         # About page
-│       ├── projects.html      # Projects page
-│       └── contact.html       # Contact page
-├── Worlde-Clone/              # Wordle game implementation
-│   ├── Wordle.html           # Game interface
-│   ├── script.js             # Game logic and mechanics
-│   ├── styles.css            # Game styling
-│   └── words.js              # Word database
-└── README.md                 # Project documentation
+portfolio-website
+├── src
+│   ├── index.html          # Main entry point for the website
+│   ├── css
+│   │   ├── style.css       # Main styles for the website
+│   │   └── responsive.css   # Responsive styles for different devices
+│   ├── js
+│   │   ├── main.js         # Main JavaScript functionality
+│   │   └── animations.js    # JavaScript for animations and transitions
+│   └── pages
+│       ├── about.html      # About page content
+│       ├── projects.html   # Projects page content
+│       └── contact.html    # Contact page content
+├── assets
+│   └── fonts               # Directory for font files
+└── README.md               # Project documentation
 ```
 
-## 🚀 Quick Start
+## Features
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Ardenbruh/portfolio-website.git
-   cd portfolio-website
-   ```
+- Responsive design for optimal viewing on mobile and tablet devices.
+- Smooth animations and transitions for an enhanced user experience.
+- Sections for About, Projects, and Contact information.
 
-2. **Open the website**
-   ```bash
-   # Open in your default browser
-   open src/index.html
-   # OR
-   # Use a local server (recommended)
-   python -m http.server 8000
-   ```
+## Setup Instructions
 
-3. **View the portfolio**
-   - Navigate to `http://localhost:8000/src/` if using a local server
-   - Or simply open `src/index.html` in your browser
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your web browser to view the portfolio website.
+3. Customize the content in the `src/pages` directory to showcase your own work and information.
 
-## 🎮 Play the Games
+## Technologies Used
 
-### Wordle Clone
-- Navigate to `Worlde-Clone/Wordle.html`
-- Features: Sound effects, animations, statistics tracking
-- Tech Stack: Vanilla JavaScript, HTML5, CSS3
+- HTML
+- CSS
+- JavaScript
 
-### Other Projects
-- Links to live demos and source code are available in the portfolio
-- GitHub repositories contain full source code and documentation
-
-## 🛠️ Technologies Used
-
-### Frontend
-- **HTML5**: Semantic markup and structure
-- **CSS3**: Modern styling with Flexbox, Grid, and animations
-- **JavaScript (ES6+)**: Interactive functionality and game logic
-
-### Design & UX
-- **Responsive Design**: Mobile-first approach
-- **Glassmorphism**: Modern UI design trend
-- **Font Awesome**: Icon library
-- **Google Fonts**: Poppins font family
-
-### Tools & Libraries
-- **Web Audio API**: Sound effects for games
-- **CSS Animations**: Smooth transitions and effects
-- **LocalStorage**: Data persistence for games
-
-## 🎨 Design Features
-
-- **Color Scheme**: Dark theme with blue gradients (#4a90e2, #7b68ee)
-- **Typography**: Poppins font with gradient text effects
-- **Layout**: CSS Grid and Flexbox for responsive design
-- **Animations**: Smooth hover effects, transitions, and loading animations
-- **Mobile Optimization**: Touch-friendly interface and responsive breakpoints
-
-## 📱 Responsive Breakpoints
-
-- **Desktop**: 1200px and above
-- **Tablet**: 768px - 1199px
-- **Mobile**: Below 768px
-- **Small Mobile**: Below 480px
-
-## 🔗 Links & Contact
-
-- **Portfolio**: [Live Demo](your-portfolio-url)
-- **GitHub**: [Ardenbruh](https://github.com/Ardenbruh)
-- **LinkedIn**: [Vedant Mishra](https://www.linkedin.com/in/vedant-mishra-8b693a251/)
-- **Email**: vedantmishra0628@gmail.com
-- **Resume**: [View/Download](https://drive.google.com/file/d/1zXfZAUmHqDov23XRfC0VWwx1l85Jd_da/view?usp=sharing)
-
-## 🚀 Future Enhancements
-
-- [ ] Add more interactive projects
-- [ ] Implement dark/light theme toggle
-- [ ] Add blog section
-- [ ] Include more animations and micro-interactions
-- [ ] Add project filtering and search functionality
-- [ ] Implement contact form with backend integration
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Feel free to fork this project and customize it for your own portfolio! If you have suggestions for improvements, please open an issue or submit a pull request.
-
----
+Feel free to modify and expand upon this project to suit your personal style and needs!
